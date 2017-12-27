@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"bitbucket.org/moliliang/litebt/spider/spider"
-	"bitbucket.org/moliliang/litebt/web/model"
+	"github/molisoft/litebt/spider/spider"
+	"github/molisoft/litebt/web/model"
 )
 
 func CreateFile(t *spider.BitTorrent) (*model.File, error) {

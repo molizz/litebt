@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"bitbucket.org/moliliang/litebt/lib"
+	"github/molisoft/litebt/lib"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )

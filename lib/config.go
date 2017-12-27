@@ -5,7 +5,7 @@ import (
 	"github.com/kataras/go-errors"
 	"os"
 
-	"bitbucket.org/moliliang/litebt/lib/utils"
+	"github/molisoft/litebt/lib/utils"
 	"github.com/jinzhu/configor"
 )
 
