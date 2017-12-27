@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github/molisoft/litebt/spider/spider"
-	"github/molisoft/litebt/web/model"
+	"github.com/molisoft/litebt/spider/spider"
+	"github.com/molisoft/litebt/web/model"
 )
 
 func CreateFile(t *spider.BitTorrent) (*model.File, error) {

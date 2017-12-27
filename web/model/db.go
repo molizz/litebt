@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github/molisoft/litebt/lib"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
+	"github.com/molisoft/litebt/lib"
 )
 
 var Db *gorm.DB

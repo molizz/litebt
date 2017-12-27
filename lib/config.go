@@ -5,8 +5,8 @@ import (
 	"github.com/kataras/go-errors"
 	"os"
 
-	"github/molisoft/litebt/lib/utils"
 	"github.com/jinzhu/configor"
+	"github.com/molisoft/litebt/lib/utils"
 )
 
 type Config struct {
