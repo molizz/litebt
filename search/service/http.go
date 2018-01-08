@@ -42,7 +42,5 @@ func RunHttp() error {
 	engine.POST("/search", SearchHandler)
 	engine.POST("/add_index", AddIndexHandler)
 	err := engine.Run(fmt.Sprintf(":%d", lib.Cfg.Searcher.Port))
-	if err != nil {
-		fmt.Println(err)
-	}
+	return err
 }

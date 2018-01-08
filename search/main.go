@@ -1,11 +1,16 @@
 package search
 
 import (
+	"fmt"
+
 	"github.com/molisoft/litebt/search/service"
 )
 
 func main() {
 
 	service.RunSearcher()
-	service.RunHttp()
+	err := service.RunHttp()
+	if err != nil {
+		fmt.Println(err)
+	}
 }
