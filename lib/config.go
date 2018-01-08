@@ -10,6 +10,9 @@ import (
 )
 
 type Config struct {
+	Searcher struct {
+		Port int `json:"port"`
+	}
 	Db struct {
 		DbName   string `json:"dbname"`
 		Username string `json:"username"`
