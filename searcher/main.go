@@ -1,9 +1,9 @@
-package search
+package searcher
 
 import (
 	"fmt"
 
-	"github.com/molisoft/litebt/search/service"
+	"github.com/molisoft/litebt/searcher/service"
 )
 
 func main() {
