@@ -1,6 +1,9 @@
 searcher:
   port: 8881
 
+downloader:
+  port: 8882
+
 db:
   dbname: "litebt"
   username: "litebt"
